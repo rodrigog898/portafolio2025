@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Aravena - FullStack Developer</title>
+    <meta name="description" content="FullStack Developer from Chile with 3 years of experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <button class="nav-dot active" data-section="intro" aria-label="Navigate to intro"></button>
+        <button class="nav-dot" data-section="work" aria-label="Navigate to work"></button>
+        <button class="nav-dot" data-section="thoughts" aria-label="Navigate to thoughts"></button>
+        <button class="nav-dot" data-section="connect" aria-label="Navigate to connect"></button>
+    </nav>
+
+    <main>
+        <header id="intro">
+            <div class="header-grid">
+                <div>
+                    <div>
+                        <div class="portfolio-label">PORTFOLIO / 2025</div>
+                        <h1>
+                            Rodrigo<br>
+                            <span class="text-muted">Aravena</span>
+                        </h1>
+                    </div>
+
+                    <div>
+                        <p class="intro-text">
+                            Soy un <span style="color: var(--foreground);">Desarrollador Full Stack</span> titulado en Duoc UC, con experiencia en <span style="color: var(--foreground);">Python</span>, <span style="color: var(--foreground);">Node.js</span>, <span style="color: var(--foreground);">Angular</span>, <span style="color: var(--foreground);">React</span> y <span style="color: var(--foreground);">GCP</span>. Me motiva la innovación y el trabajo en equipo para crear soluciones eficientes y escalables.
+                        </p>
+
+
+                        <div class="status-container">
+                            <div class="flex items-center gap-2">
+                                <div class="status-dot"></div>
+                                Disponible para trabajar
+                            </div>
+                            <div>Chile</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="currently-section">
+                    <div class="mb-6">
+                        <div class="section-label">ACTUALMENTE</div>
+                        <div style="margin-bottom: 0.5rem;">FullStack Developer</div>
+                        <div class="text-muted" style="margin-bottom: 0.5rem;">@ Reale Seguros</div>
+                        <div class="text-xs text-muted">2025 — Actualidad</div>
+                    </div>
+
+                    <div>
+                        <div class="section-label">Stack Principal</div>
+                        <div class="flex" style="flex-wrap: wrap; gap: 0.5rem;">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">GCP</span>
+                            <span class="skill-tag">Angular</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+<section id="work" class="work-section">
+  <div>
+    <div class="section-header">
+      <h2>Experiencia Laboral</h2>
+      <div class="text-sm text-muted" style="font-family: 'Courier New', monospace;">2020 — 2025</div>
+    </div>
+
+    <!-- Reale Seguros -->
+    <div class="work-item">
+      <!-- Fecha -->
+      <div class="work-period">
+        <div class="work-date">Junio 2025 -</div>
+        <div class="work-date">Actualidad</div>
+      </div>
+
+      <!-- Contenido -->
+      <div class="work-body">
+      <div class="role-line">
+        <img class="company-logo" src="img/reale.jpeg" alt="Reale Seguros">
+        <div class="role-meta">
+          <h3 class="role">Full Stack Developer</h3>
+          <div class="company text-muted" style="font-weight: 600;">Reale Seguros</div>
+        </div>
+      </div>
+        <p class="text-muted" style="line-height:1.75; max-width:32rem;">
+            Desarrollé un portal de gestión de solicitudes de teletrabajo, <strong>integrado</strong> con diversas plataformas para almacenar y sincronizar la información en la base de datos. La aplicación, construida con <strong>Node.js</strong> y <strong>Angular</strong>, cuenta con múltiples módulos y un apartado dedicado a la descarga de reportes.        </p>
+      </div>
+
+      <ul class="work-tech">
+        <li>Angular</li>
+        <li>Node.js</li>
+        <li>Docker</li>
+        <li>GitHub</li>
+        <li>Postman</li>
+      </ul>
+    </div>
+
+
+
+    <!-- Apiux -->
+    <div class="work-item">
+      <div class="work-period">
+        <div class="work-date">Enero 2024 -</div>
+        <div class="work-date">Marzo 2025</div>
+      </div>
+
+      <div class="work-body">
+      <div class="role-line">
+        <img class="company-logo" src="img/apx.jpeg" alt="Reale Seguros">
+        <div class="role-meta">
+          <h3 class="role">Full Stack Developer</h3>
+          <div class="company text-muted" style="font-weight: 600;">Apiux</div>
+        </div>
+      </div>
+     
+        <p class="text-muted" style="line-height:1.75; max-width:32rem;">
+          Participé en el desarrollo de un <strong>MVP de entrevistas con IA</strong>, integrando <strong>Spring Boot, Python y React</strong>, además de la conexión con TeamTailor (ATS) para automatizar el 
+          flujo de entrevistas mediante un <strong>avatar inteligente</strong>, mejorando la eficiencia y experiencia del reclutamiento. También contribuí al desarrollo de un portal de gestión de personas en 
+          <strong>Google Cloud Platform (GCP)</strong>, utilizando servicios como <strong>Cloud Functions</strong>, <strong>App Engine</strong>, <strong>Flask</strong>, <strong>MongoDB</strong>, <strong>Kafka</strong>, <strong>Cloud Run</strong> y <strong>Máquinas virtuales</strong>, garantizando escalabilidad y alto rendimiento.
+          Adicionalmente, diseñé asistentes virtuales con IA capaces de procesar datos empresariales estructurados y desarrollé un convertidor inteligente de CVs, que adapta documentos a formatos corporativos de manera automática, optimizando procesos internos y de selección.
+        </p>
+      </div>
+
+      <ul class="work-tech">
+        <li>Python</li>
+        <li>Spring Boot</li>
+        <li>Java</li>
+        <li>MongoDB</li>
+        <li>Kafka</li>
+        <li>React</li>
+        <li>GCP</li>
+        <li>PHP</li>
+        <li>AI</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Redis</li>
+        <li>ElasticSearch</li>
+        <li>Docker</li>
+        <li>WordPress</li>
+        <li>MySQL</li>
+      </ul>
+    </div>
+    
+    <!-- Apiux -->
+    <div class="work-item">
+      <div class="work-period">
+        <div class="work-date">Octubre 2023 -</div>
+        <div class="work-date">Enero 2024</div>
+      </div>
+
+      <div class="work-body">
+      <div class="role-line">
+        <img class="company-logo" src="img/apx.jpeg" alt="Reale Seguros">
+        <div class="role-meta">
+          <h3 class="role">Software Development Practice</h3>
+          <div class="company text-muted" style="font-weight: 600;">Apiux</div>
+        </div>
+      </div>
+        <p class="text-muted" style="line-height:1.75; max-width:32rem;">
+          Diseñé e implementé una aplicación web para la automatización de reportes, capaz de consultar grandes volúmenes de datos en <strong>BigQuery</strong>
+           y generar informes de forma <strong>eficiente</strong> y <strong></strong>precisa</strong>. <strong>Integré</strong>
+            los resultados en plantillas personalizadas, <strong>optimizando</strong> el proceso de generación y entrega de reportes. Además, desarrollé y desplegué toda la infraestructura en <strong>Google Cloud Platform (GCP)</strong>, garantizando alto rendimiento, disponibilidad y escalabilidad del sistema.
+        </p>
+      </div>
+
+      <!-- Skills -->
+      <ul class="work-tech">
+        <li>Python</li>
+        <li>GCP</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>BigQuery</li>
+        <li>MongoDB</li>
+      </ul>
+    </div>
+    
+    
+    <!-- Transportes CG -->
+    <div class="work-item">
+      <!-- Fecha -->
+      <div class="work-period">
+        <div class="work-date">Mayo 2023 -</div>
+        <div class="work-date">Octubre 2024</div>
+      </div>
+
+      <!-- Contenido -->
+      <div class="work-body">
+      <div class="role-line">
+        <img class="company-logo" src="img/cgtr.jpeg" alt="Transportes CG">
+        <div class="role-meta">
+          <h3 class="role">Software Development Practice</h3>
+          <div class="company text-muted" style="font-weight: 600;">Transportes CG</div>
+        </div>
+      </div>
+
+        <p class="text-muted" style="line-height:1.75; max-width:32rem;">
+          Desarrollé y modernicé plataformas web con <strong>PHP</strong> y <strong>WordPress</strong>, implementando interfaces optimizadas y múltiples CRUD para mejorar la usabilidad. <strong>Diseñé un nuevo portal</strong> integrado para administradores y clientes, fortaleciendo la conexión con los sistemas internos de la empresa. <strong>Brindé soporte continuo y mantenimiento</strong>, asegurando el correcto funcionamiento y la evolución constante de las aplicaciones.
+      </div>
+
+      <!-- Skills -->
+      <ul class="work-tech">
+        <li>PHP</li>
+        <li>WordPress</li>
+        <li>MySQL</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+
+    <!-- Comercial Burton -->
+    <div class="work-item">
+      <!-- Fecha -->
+      <div class="work-period">
+        <div class="work-date">Diciembre 2020 -</div>
+        <div class="work-date">Octubre 2021</div>
+      </div>
+
+      <!-- Contenido -->
+      <div class="work-body">
+
+      <div class="role-line">
+        <img class="company-logo" src="img/comercialburton.png" alt="Comercial Burton">
+        <div class="role-meta">
+          <h3 class="role">Desarrollador Web y Mantenedor de Sitio</h3>
+          <div class="company text-muted;" style="font-weight: 600;">Comercial Burton</div>
+        </div>
+      </div>
+
+        <p class="text-muted" style="line-height:1.75; max-width:32rem;">
+          Desarrollo y mantenimiento con <strong>Joomla</strong> y <strong>PHP</strong>, integración de <strong>VirtueMart</strong> para e-commerce y optimización del catálogo con mejor presentación de productos.
+        </p>
+      </div>
+
+      <!-- Skills -->
+      <ul class="work-tech">
+        <li>Joomla</li>
+        <li>VirtueMart</li>
+        <li>PHP</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+        <section id="thoughts" class="thoughts-section">
+            <div>
+                <h2 style="margin-bottom: 3rem;">Proyectos Recientes</h2>
+
+                <div class="thoughts-grid">
+                  <article class="thought-card"
+                    data-title="WealthWise"
+                    data-desc="Aplicación web para gestión inteligente de finanzas personales. Controla gastos, administra deudas y optimiza tu presupuesto."
+                    data-url="https://rodrigoaravena.vexy.host/WealthWise"
+                    data-images='["img/wealthwise/app1.png","img/wealthwise/app2.png","img/wealthwise/app3.png","img/wealthwise/app4.png","img/wealthwise/home.png","img/wealthwise/home2.png","img/wealthwise/home3.png"]'>
+                    <h3>WealthWise</h3>
+                    <p>Aplicación web para gestión inteligente de finanzas personales. Controla gastos, administra deudas y optimiza tu presupuesto de forma sencilla.</p>
+                    <div class="read-more">
+                      <span> <strong>Ver Mas</strong></span>
+                      <svg class="arrow-icon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                      </svg>
+                    </div>
+                  </article>
+                  <article class="thought-card"
+                    data-title="Terminal Mac"
+                    data-desc="Simulador interactivo de consola macOS/Linux hecho con HTML, CSS y JavaScript. Permite escribir comandos como ls, pwd, uname o date, mostrando respuestas aleatorias en una interfaz realista con diseño estilo macOS y cursor parpadeante."                    
+                    data-url="https://rodrigoaravena.vexy.host/Terminal/home.html"
+                    data-images='["img/Terminal/Terminal.png"]'>
+                    <h3>Terminal Mac</h3>
+                    <p>Aplicación web para gestión inteligente de finanzas personales. Controla gastos, administra deudas y optimiza tu presupuesto de forma sencilla.</p>
+                    <div class="read-more">
+                      <span> <strong>Ver Mas</strong></span>
+                      <svg class="arrow-icon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                      </svg>
+                    </div>
+                  </article>
+
+                  <article class="thought-card"
+                    data-title="Animacion Planeta"
+                    data-desc="Animación del planeta Tierra en HTML5 Canvas y JavaScript. Genera partículas luminosas que orbitan creando un efecto de rotación fluido y dinámico, ajustado para desktop y móvil sin usar librerías externas."                    
+                    data-url="https://rodrigoaravena.vexy.host/Planeta/home.html"
+                    data-images='["img/Planeta/planeta.gif"]'>
+                    <h3>Animacion Planeta</h3>
+                    <p>Aplicación web para gestión inteligente de finanzas personales. Controla gastos, administra deudas y optimiza tu presupuesto de forma sencilla.</p>
+                    <div class="read-more">
+                      <span> <strong>Ver Mas</strong></span>
+                      <svg class="arrow-icon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                      </svg>
+                    </div>
+                  </article>
+
+
+                  <article class="thought-card"
+                    data-title="PowerShell Tools"
+                    data-desc="Script en Python con menú interactivo para Windows. Permite instalar programas, descargar repositorios y ejecutar herramientas como obtener la contraseña Wi-Fi u optimizar servicios del sistema. Usa subprocess, os, time y colorama con interfaz animada en consola."                    
+                    data-url="https://rodrigoaravena.vexy.host/PowerShellTools/Gridor-Tools.exe"
+                    data-images='["img/PowerShellTools/Powershell.png"]'>
+                    <h3>PowerShell Tools</h3>
+                    <p>Script en Python para automatizar tareas en Windows: instalar programas, descargar repositorios, ver contraseña Wi-Fi y optimizar servicios, con interfaz animada en consola.</p>
+                    <div class="read-more">
+                      <span> <strong>Ver Mas</strong></span>
+                      <svg class="arrow-icon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                      </svg>
+                    </div>
+                  </article>
+
+
+                  <article class="thought-card"
+                    data-title="Fitness Track"
+                    data-desc="Script en Python con menú interactivo para Windows. Permite instalar programas, descargar repositorios y ejecutar herramientas como obtener la contraseña Wi-Fi u optimizar servicios del sistema. Usa subprocess, os, time y colorama con interfaz animada en consola."                    
+                    data-url="https://rodrigoaravena.vexy.host/FitnessTrack/home.html"
+                    data-images='["img/FitnessTrack/app1.png","img/FitnessTrack/app2.png"]'>
+                    <h3>Fitness Track</h3>
+                    <p>App web de entrenamiento con calendario: registra ejercicios diarios y peso mensual, hace auto-guardado en GitHub (token), permite backup/recarga y ofrece UI responsive con modales.</p>
+                    <div class="read-more">
+                      <span> <strong>Ver Mas</strong></span>
+                      <svg class="arrow-icon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                      </svg>
+                    </div>
+                  </article>
+
+
+
+                  <article class="thought-card"
+                    data-title="Fitness Track"
+                    data-desc="Script en Python con menú interactivo para Windows. Permite instalar programas, descargar repositorios y ejecutar herramientas como obtener la contraseña Wi-Fi u optimizar servicios del sistema. Usa subprocess, os, time y colorama con interfaz animada en consola."                    
+                    data-url="https://rodrigoaravena.vexy.host/FitnessTrack/home.html"
+                    data-images='["img/FitnessTrack/app1.png","img/FitnessTrack/app2.png"]'>
+                    <h3>Fitness Track</h3>
+                    <p>App web de entrenamiento con calendario: registra ejercicios diarios y peso mensual, hace auto-guardado en GitHub (token), permite backup/recarga y ofrece UI responsive con modales.</p>
+                    <div class="read-more">
+                      <span> <strong>Ver Mas</strong></span>
+                      <svg class="arrow-icon" width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                      </svg>
+                    </div>
+                  </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect" class="connect-section">
+            <div class="connect-grid">
+            <div>
+                <h2 style="margin-bottom: 1.5rem;">Conectemos</h2>
+
+                <div>
+                    <p class="intro-text" style="margin-bottom: 1.5rem;">
+                        Siempre abierto a nuevas oportunidades, colaboraciones sobre tecnología y diseño.
+                    </p>
+
+                    <a href="mailto:test@example.com" class="email-link">
+                        <span>Ro.aravenac@gmail.com</span>
+                        <svg class="arrow-icon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+
+                <div>
+                    <div class="section-label">También en</div>
+
+                    <div class="social-grid">
+                        <a href="https://github.com/rodrigog898" class="social-card">
+                            <div class="social-name">GitHub</div>
+                            <div class="social-handle">@Rodrigog898</div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rodrigo-alonso-aravena-cornejo-7b1219249/" class="social-card">
+                            <div class="social-name">LinkedIn</div>
+                            <div class="social-handle">Rodrigo Aravena</div>
+                        </a>
+                        <a href="#" class="social-card">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="12" rx="2" ry="2"></rect>
+                            <line x1="2" y1="20" x2="22" y2="20"></line>
+                          </svg>
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10 13a5 5 0 0 1 7 7l-1 1a5 5 0 0 1-7-7"></path>
+                            <path d="M14 11a5 5 0 0 1-7-7l1-1a5 5 0 0 1 7 7"></path>
+                          </svg>
+                        </a>
+                        <a href="#" class="social-card">
+                            <div class="social-name">Discord</div>
+                            <div class="social-handle">@.rodrigog</div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <div class="text-sm text-muted mb-2">© 2025 Rodrigo Aravena ❤️.</div>
+                </div>
+
+                <div class="footer-buttons">
+                    <button id="themeToggle" class="icon-button" aria-label="Toggle theme">
+                        <svg id="sunIcon" width="16" height="16" fill="currentColor" viewBox="0 0 20 20" style="display: none;">
+                            <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/>
+                        </svg>
+                        <svg id="moonIcon" width="16" height="16" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+                        </svg>
+                    </button>
+
+                    <button class="icon-button">
+                        <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <div class="gradient-fade"></div>
+<!-- Modal Proyectos -->
+  <div id="projectModal" class="modal" aria-hidden="true">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" aria-label="Cerrar">&times;</button>
+
+      <div class="modal-grid">
+        <!-- Carrusel (izquierda) -->
+        <div class="carousel">
+          <button class="carousel-nav prev" aria-label="Imagen anterior">&#10094;</button>
+          <img id="carouselImage" alt="Imagen del proyecto" />
+          <button class="carousel-nav next" aria-label="Imagen siguiente">&#10095;</button>
+          <div class="carousel-dots" aria-label="Paginación de imágenes"></div>
+        </div>
+
+        <!-- Detalles (derecha) -->
+        <div class="modal-details">
+          <h3 id="modalTitle" class="role" style="margin-bottom:.5rem;"></h3>
+          <p id="modalDesc" class="text-muted" style="line-height:1.75;"></p>
+
+          <div class="modal-cta">
+            <a id="modalLink" class="primary-button" target="_blank" rel="noopener">
+              Ir al proyecto
+              <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="vertical-align:-2px;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
